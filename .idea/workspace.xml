@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02622708-42b9-40ba-8a09-ba1aae850292" name="Changes" comment="Optimizing code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/cases/wearerestassuredtests/tests/RESTPostControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/cases/wearerestassuredtests/tests/RESTPostControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="02622708-42b9-40ba-8a09-ba1aae850292" name="Changes" comment="Fixed a bug in a test for show all posts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +158,7 @@
       <workItem from="1698163886679" duration="800000" />
       <workItem from="1698165163556" duration="521000" />
       <workItem from="1698166931404" duration="4313000" />
-      <workItem from="1699791395542" duration="5952000" />
+      <workItem from="1699791395542" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="Methods distributed to models instead of WeAreClass with all methods">
       <option name="closed" value="true" />
@@ -203,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698167161266</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed a bug in a test for show all posts">
+      <option name="closed" value="true" />
+      <created>1699803681318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699803681318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Methods distributed to models instead of WeAreClass with all methods" />
     <MESSAGE value="Optimizing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimizing code" />
+    <MESSAGE value="Fixed a bug in a test for show all posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug in a test for show all posts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WEare_API_UI$test_cases_wearerestassuredtests_in_WEare_Social_Network_Testing.ic" NAME="test.cases.wearerestassuredtests in WEare-Social-Network-Testing Coverage Results" MODIFIED="1699802868802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
