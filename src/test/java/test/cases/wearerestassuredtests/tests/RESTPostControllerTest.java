@@ -14,6 +14,7 @@ import java.util.List;
 
 import static com.telerikacademy.testframework.utils.UserRoles.*;
 import static org.testng.Assert.*;
+import static restassuredapi.PostApi.showProfilePosts;
 
 public class RESTPostControllerTest extends BaseWeareRestAssuredTest {
 
@@ -133,7 +134,9 @@ public class RESTPostControllerTest extends BaseWeareRestAssuredTest {
 
         PostModel[] foundPosts = PostApi.findAllPosts();
 
-        for (PostModel foundPost : foundPosts) {
+        PostModel[] foundPrivatePosts = showProfilePosts(globalRestApiUser);
+
+        for (PostModel foundPost : foundPrivatePosts) {
             if (postIds.contains(foundPost.getPostId())) {
                 assertNotNull(foundPost, "Post is null");
                 PostApi.deletePost(globalRestApiUser, foundPost.getPostId());
@@ -141,6 +144,7 @@ public class RESTPostControllerTest extends BaseWeareRestAssuredTest {
                 assertFalse(PostApi.publicPostExists(foundPost.getPostId()), "Post was not deleted.");
             }
         }
+
 
         assertEquals(postIds.size(), 0, "Some posts were not received");
 

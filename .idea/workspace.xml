@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02622708-42b9-40ba-8a09-ba1aae850292" name="Changes" comment="Optimizing code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/cases/BaseTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/cases/BaseTestSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/cases/wearerestassuredtests/tests/RESTPostControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/cases/wearerestassuredtests/tests/RESTPostControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,78 +29,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="TestNG.RESTPostControllerTest.allPostsListed_When_Requested_By_User">
-    <configuration name="RESTCommentControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.test.cases.wearerestassuredtests">
+    <configuration name="test.cases.wearerestassuredtests in WEare-Social-Network-Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WEare-Social-Network-Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.cases.wearerestassuredtests.tests.*" />
+          <option name="PATTERN" value="test.cases.wearerestassuredtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.cases.wearerestassuredtests.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.cases.wearerestassuredtests.tests.RESTCommentControllerTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RESTCommentControllerTest.commentOfPublicPostDeleted_By_Author" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WEare-Social-Network-Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.cases.wearerestassuredtests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.cases.wearerestassuredtests.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.cases.wearerestassuredtests.tests.RESTCommentControllerTest" />
-      <option name="METHOD_NAME" value="commentOfPublicPostDeleted_By_Author" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RESTCommentControllerTest.commentOfPublicPostEdited_By_AdminUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WEare-Social-Network-Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.cases.wearerestassuredtests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.cases.wearerestassuredtests.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.cases.wearerestassuredtests.tests.RESTCommentControllerTest" />
-      <option name="METHOD_NAME" value="commentOfPublicPostEdited_By_AdminUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="test.cases.wearerestassuredtests" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,13 +102,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.cases.wearerestassuredtests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEare-Social-Network-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.cases.wearerestassuredtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.cases.wearerestassuredtests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.cases.weareseleniumtests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEare-Social-Network-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.cases.weareseleniumtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.cases.weareseleniumtests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test.cases.wearerestassuredtests" />
+        <item itemvalue="JUnit.test.cases.wearerestassuredtests in WEare-Social-Network-Testing" />
         <item itemvalue="TestNG.RESTPostControllerTest.allPostsListed_When_Requested_By_User" />
+        <item itemvalue="TestNG.test.cases.weareseleniumtests" />
         <item itemvalue="TestNG.RESTPostControllerTest" />
-        <item itemvalue="TestNG.RESTCommentControllerTest" />
-        <item itemvalue="TestNG.RESTCommentControllerTest.commentOfPublicPostEdited_By_AdminUser" />
-        <item itemvalue="TestNG.RESTCommentControllerTest.commentOfPublicPostDeleted_By_Author" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +161,7 @@
       <workItem from="1698163886679" duration="800000" />
       <workItem from="1698165163556" duration="521000" />
       <workItem from="1698166931404" duration="4313000" />
+      <workItem from="1699791395542" duration="5952000" />
     </task>
     <task id="LOCAL-00001" summary="Methods distributed to models instead of WeAreClass with all methods">
       <option name="closed" value="true" />
@@ -231,5 +224,10 @@
     <MESSAGE value="Methods distributed to models instead of WeAreClass with all methods" />
     <MESSAGE value="Optimizing code" />
     <option name="LAST_COMMIT_MESSAGE" value="Optimizing code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WEare_API_UI$test_cases_wearerestassuredtests_in_WEare_Social_Network_Testing.ic" NAME="test.cases.wearerestassuredtests in WEare-Social-Network-Testing Coverage Results" MODIFIED="1699802868802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.cases.wearerestassuredtests.*</FILTER>
+    </SUITE>
   </component>
 </project>
